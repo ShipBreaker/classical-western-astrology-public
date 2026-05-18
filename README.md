@@ -2,6 +2,8 @@
 
 当前版本：V1.0
 
+许可证：MIT
+
 面向中文咨询、学习和案例复盘的 skill。它按古典西洋占星的判断链工作，用于本命盘、专题分析、推运、合盘、中点、ACG、校时与案例训练。
 
 它不走泛化星座描述，而是从盘面结构、宫主关系、星体状态、相位接纳和时间技法出发，给出有证据层级的咨询式结论。
@@ -67,6 +69,7 @@
 ```text
 classical-western-astrology-public/
   README.md
+  LICENSE
   SKILL.md
   agents/openai.yaml
   references/*.md

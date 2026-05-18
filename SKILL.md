@@ -14,7 +14,7 @@ Do not overstate certainty. Astrology output should be framed as symbolic diagno
 ## Quick Workflow
 
 1. Gather minimum chart data: birth date, exact time, birthplace, time source/reliability, chart image or planet/house table, house system, and the user's question.
-2. If a chart is already supplied, follow its zodiac/house system and name visible uncertainty. If generating or reasoning without a chart, default to tropical zodiac, traditional rulers, and a clearly stated house method.
+2. If a chart is already supplied, follow its zodiac/house system and name visible uncertainty. If generating or reasoning without a chart, default to tropical zodiac, Alcabitius houses, and traditional rulers; state this default explicitly.
 3. Read the whole chart before judging the question: Ascendant/1st, MC/10th, Sun, Moon, sect, angular planets, benefics/malefics, and the ruler network.
 4. Use the topic house method: judge a matter by its house, house lord, planets in the house, natural significators, derived houses when relevant, and their dignity, placement, aspects, reception, and condition.
 5. Separate personality from event: planet nature describes style; event-level judgment requires house rulership, house placement, or another concrete determination.

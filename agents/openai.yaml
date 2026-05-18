@@ -1,0 +1,4 @@
+interface:
+  display_name: "Classical Western Astrology"
+  short_description: "Classical natal chart reading logic"
+  default_prompt: "Use $classical-western-astrology-public to analyze this natal chart with classical Western astrology logic."

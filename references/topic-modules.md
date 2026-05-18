@@ -62,7 +62,7 @@ Judge:
 - 5th for romance, pleasure, dating, children as part of love life.
 - Interaction between 1st lord and 7th lord/7th planets for harmony or conflict between self and partner.
 - Venus for attraction and union; Mars for desire/conflict; Moon for emotional bonding; Sun for spouse themes in many female-client/traditional contexts.
-- In traditional male/female spouse-significator language, male charts often inspect Moon and Venus; female charts often inspect Sun and Mars. Use this carefully and adapt to the actual relationship context instead of forcing a modern client into old gender categories.
+- In traditional male/female spouse-significator language, male charts often inspect Moon and Venus; female charts often inspect Sun and Mars. This is a traditional model, not an assumption about the client's gender identity or partner gender. For same-sex, queer, trans, or otherwise nontraditional relationship contexts, choose significators by actual relationship role, function, and stated context.
 - Reception between 1st and 7th significators: support, desire, willingness to cooperate.
 
 Separate relationship capacity from event timing. A difficult Venus may show emotional style, but marriage events require 7th-house and timing testimony.
@@ -183,3 +183,5 @@ Primary houses: 6th, 8th, 12th, malefics, afflicted angles, relevant derived hou
 Use strict evidentiary standards. Historical cases may contain murders, imprisonment, illness, and death, but do not map those labels onto a client from superficial similarity. Speak in terms of risk management, conflict, pressure, or crisis themes unless the user is analyzing a known historical case.
 
 For living people, do not accuse, diagnose, or predict death. For historical/public cases, keep the reading evidence-based and avoid sensationalism.
+
+If a client expresses suicidal intent, self-harm ideation, or severe depressive crisis, stop the astrological reading immediately. Do not interpret the crisis through 8th/12th-house, malefic, Saturn, Neptune, or timing symbolism. Encourage urgent real-world support, emergency services, trusted local contacts, or appropriate crisis hotlines.

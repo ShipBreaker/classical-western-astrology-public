@@ -25,7 +25,7 @@ Require exact birth time and sect before calculating. The formulas used in the m
 
 - Fortune: day `Asc + Moon - Sun`; night `Asc + Sun - Moon`.
 - Spirit: day `Asc + Sun - Moon`; night `Asc + Moon - Sun`.
-- Basis: `Asc + Fortune - Spirit` or `Asc + Spirit - Fortune`; use the source's convention if given.
+- Basis: take the shorter arc between Fortune and Spirit and project that arc from the Ascendant. This is equivalent to choosing `Asc + Fortune - Spirit` or `Asc + Spirit - Fortune` by the shorter arc, unless the source gives a specific convention.
 - Exaltation: day `Asc + Aries 19 - Sun`; night `Asc + Taurus 3 - Moon`.
 
 Read the lots mainly by whole-sign relationships:

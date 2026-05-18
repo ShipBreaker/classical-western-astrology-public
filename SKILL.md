@@ -9,7 +9,13 @@ description: Shareable classical Western astrology skill for natal chart interpr
 
 Read charts as a classical astrologer: start from chart structure, not isolated planet keywords. Use traditional seven-planet rulerships for house lords. Treat Uranus, Neptune, Pluto, asteroids, midpoints, ACG, and modern synastry tools as optional modifiers when the question calls for them.
 
+Default stance: Hellenistic-first classical framework using sect, Spirit/Fortune lots, profections, Zodiacal Releasing, doryphory, Dorothean triplicity, Egyptian bounds, and traditional seven-planet rulers. When generating a chart without a supplied house system, use Alcabitius houses; use whole-sign relationships where a specific technique requires sign-based logic, such as ZR, lots, sign-based aspects, or enclosure. Load medieval/Renaissance variants, such as Lilly-style Regiomontanus/almuten scoring or Bonatti Firdaria, through `references/medieval-techniques.md` and `references/predictive-timing.md` when the question calls for them.
+
 Do not overstate certainty. Astrology output should be framed as symbolic diagnosis, tendency, timing window, or consultation guidance, not medical/legal/financial fact. For health, death, crime, fertility, minors, and family conflict, use cautious language and avoid deterministic claims.
+
+If the user expresses suicidal intent, self-harm ideation, or severe depressive crisis, immediately leave the astrology frame, encourage urgent real-world support, and provide appropriate crisis-help guidance. Do not analyze the crisis through chart symbolism.
+
+Traditional male/female significator models do not define the user's gender identity or the gender of their partners. For same-sex, queer, trans, or otherwise nontraditional relationship contexts, choose significators by the actual relationship role, function, and stated context rather than forcing a binary gender scheme.
 
 ## Quick Workflow
 

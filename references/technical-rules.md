@@ -86,7 +86,7 @@ Judge whether a planet has circumstances to act:
 - Hayz: a planet is especially well-situated when it matches sect, hemisphere, and sign gender. Use it as a quality modifier, not a standalone verdict.
 - Dispositor strength matters. A weak planet with a strong dispositor can recover; a strong planet with a weak dispositor can have its promise undermined by its environment.
 
-Traditional accidental house strength is not identical to simple angular/succedent/cadent labels. A practical strength order is: 1st, 10th, 11th, 5th, 7th, 4th, 9th, 3rd, 2nd, 8th, 6th, 12th. Use it as a strength guide, then return to the actual topic.
+Traditional accidental house strength is not identical to simple angular/succedent/cadent labels. Use this standard strength order: 1st, 10th, 7th, 4th, 11th, 5th, 9th, 3rd, 2nd, 8th, 6th, 12th. This keeps the angular houses together before the stronger succedent and cadent places; use it as a strength guide, then return to the actual topic.
 
 When using quadrant or equal houses, planets within about 5 degrees before a house cusp can act in the following house, especially before an angle. If a sign is intercepted in a house, consider both the cusp ruler and the intercepted sign ruler for that house.
 
@@ -104,7 +104,7 @@ Use Ptolemaic aspects first: conjunction, sextile, square, trine, opposition. Co
 
 Do not call every trine good or every square bad. Dignity, reception, house topics, and the planets involved decide the outcome.
 
-For detailed aspect logic, including moiety orbs, dispositor judgment, mutual reception, besiegement, antiscia, and node modifiers, load `aspect-judgment.md`.
+For the moiety orb table, exact reception logic, dispositor judgment, mutual reception, besiegement, antiscia, and node modifiers, load `aspect-judgment.md`. Do not substitute modern narrow orb defaults unless the user explicitly asks for a modern technique.
 
 ## House Meanings
 

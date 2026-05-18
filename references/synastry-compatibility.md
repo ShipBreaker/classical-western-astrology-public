@@ -24,6 +24,8 @@ Before judging, name the relationship form:
 - Parent-child or family: 4th/10th, Moon, Sun/Saturn/Venus, derived houses.
 - Teacher-student, patron, alliance: 9th/10th/11th, Jupiter, Mercury, Saturn.
 
+Do not assume gender identity, sexual orientation, or partner gender from traditional Sun/Moon/Venus/Mars language. For same-sex, queer, trans, or otherwise nontraditional relationships, choose significators by actual role, function, stated context, and the natal relationship promise of each person.
+
 The same contact changes meaning by relationship type. Mars to Venus can be sexual attraction in dating, argument and irritation in marriage, or productive drive in business if other testimony supports it.
 
 ## Read Each Natal Chart First

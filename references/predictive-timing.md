@@ -104,19 +104,17 @@ Day-birth major sequence:
 - North Node 3 years.
 - South Node 2 years.
 
-Night-birth major sequence commonly used in Bonatti/Zoller-style practice:
+Night-birth major sequence in the common node-free Bonatti/Zoller-style form:
 
 - Moon 9 years.
 - Saturn 11 years.
 - Jupiter 12 years.
 - Mars 7 years.
-- North Node 3 years.
-- South Node 2 years.
 - Sun 10 years.
 - Venus 8 years.
 - Mercury 13 years.
 
-Note the variant that places the nodes after Mercury in night charts. If a source chart already uses one system, follow it and name the variant.
+If using a node-including night sequence, place the nodes after Mercury: North Node 3 years, then South Node 2 years, extending the sequence to 75 years. The middle-node placement after Mars is a less common variant; use it only when the source chart or software explicitly follows that system, and name the variant.
 
 Subperiods divide each planetary major period into seven subperiods, beginning with the major period lord and then following the Chaldean order used by the Firdaria sequence. Node periods are usually not subdivided in this teaching stream.
 
@@ -158,6 +156,7 @@ Additional ZR rules:
 
 - ZR divides life into activated signs and time-lord chapters. A sign can be activated even when empty; planets configured to it by conjunction, square, or opposition still color the period.
 - The period lengths by sign follow domicile lord minor years: Cancer 25, Leo 19, Virgo/Gemini 20, Libra/Taurus 8, Scorpio/Aries 15, Sagittarius/Pisces 12, Capricorn 27, Aquarius 30.
+- Capricorn 27 / Aquarius 30 follows the Valens-style route used here. Some sources or software assign both Saturn signs 30; if the supplied calculation uses that convention, follow it and name the difference.
 - Levels are hierarchical: Level 1 years, Level 2 months, Level 3 weeks, Level 4 days; lower levels are subdivisions of the higher period and should not override the main chapter.
 - When releasing from Spirit and Spirit is in the same sign as Fortune, some Valens-derived practice advances Spirit one sign for the release. Name this rule if you use it.
 - Angular signs from Fortune are peak periods: 1st/4th/7th/10th from Fortune show highest activity, succedent signs carry or stabilize, cadent signs begin or reduce activity. A peak can be difficult if malefics dominate that sign.

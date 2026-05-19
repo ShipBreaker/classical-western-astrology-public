@@ -22,7 +22,7 @@ The ZOE-style timing notes summarize the practical workflow well:
 2. Stack repeated testimonies of the same kind; do not chase every isolated symbol.
 3. Distinguish the concrete topic by changing the reference point when needed, such as using derived houses for partner, child, parent, company, or client questions.
 4. Use timing tools as activators. A tool is useful when it narrows the natal promise, not when it creates a new story.
-5. Know each tool's scale: Firdaria/ZR/profection for chapter and topic, Solar Arc/primary-like direction for year-level peaks, secondary progressions for unfolding environment, transits/eclipses/progressed Moon for activation.
+5. Know each tool's scale: Firdaria, profection, and return charts for the ordinary medieval timing backbone; Solar Arc/primary-like direction for year-level peaks; secondary progressions for unfolding environment; transits/eclipses/progressed Moon for activation. Use ZR as a Hellenistic lot-based timing layer when the question or supplied calculation calls for it.
 
 For topic questions, phrase the forecast as "the chart shows this field is activated, and the most likely concrete forms are..." rather than pretending one technique alone names the outcome.
 

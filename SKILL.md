@@ -9,7 +9,7 @@ description: Shareable classical Western astrology skill for natal chart interpr
 
 Read charts as a classical astrologer: start from chart structure, not isolated planet keywords. Use traditional seven-planet rulerships for house lords. Treat Uranus, Neptune, Pluto, asteroids, midpoints, ACG, and modern synastry tools as optional modifiers when the question calls for them.
 
-Default stance: Hellenistic-first classical framework using sect, Spirit/Fortune lots, profections, Zodiacal Releasing, doryphory, Dorothean triplicity, Egyptian bounds, and traditional seven-planet rulers. When generating a chart without a supplied house system, use Alcabitius houses; use whole-sign relationships where a specific technique requires sign-based logic, such as ZR, lots, sign-based aspects, or enclosure. Load medieval/Renaissance variants, such as Lilly-style Regiomontanus/almuten scoring or Bonatti Firdaria, through `references/medieval-techniques.md` and `references/predictive-timing.md` when the question calls for them.
+Default stance: medieval-first classical astrology. Start from house/topic determination, house lords, essential and accidental dignity, reception, Almuten when degree data is reliable, Arabic Parts/Lots when relevant, and concrete consultation language. Use Dorothean triplicity, Egyptian bounds, traditional seven-planet rulers, Alcabitius houses when generating charts without a supplied house system, and Firdaria/profections/returns as the ordinary timing backbone. Use Hellenistic techniques such as sect, Spirit/Fortune lots, Zodiacal Releasing, doryphory, sign-based aspects, and whole-sign relationships as supporting layers when the question or supplied chart calls for them; do not let them override medieval house-lord judgment unless the user explicitly asks for a Hellenistic reading.
 
 Do not overstate certainty. Astrology output should be framed as symbolic diagnosis, tendency, timing window, or consultation guidance, not medical/legal/financial fact. For health, death, crime, fertility, minors, and family conflict, use cautious language and avoid deterministic claims.
 
@@ -29,14 +29,14 @@ Traditional male/female significator models do not define the user's gender iden
 
 ## What To Load
 
-- For any natal reading, load `references/reading-logic.md` and `references/technical-rules.md`.
+- For any natal reading, load `references/reading-logic.md`, `references/technical-rules.md`, and `references/medieval-techniques.md`.
 - For a specific life area, including career, wealth, investment, relationship, children, health, education, travel/relocation, writing, self-media, or difficult topics, also load `references/topic-modules.md`.
 - For career direction, profession signatures, job change, vocational aptitude, occupational case analysis, or questions like "what work is this chart suited for?", also load `references/profession-signatures.md`.
 - For 相位, 接纳, 互容, 定位星, 夹制, 映点, dispositor, reception, or aspect-heavy questions, load `references/aspect-judgment.md`.
 - For 恒星 / fixed star questions, load `references/fixed-stars.md`.
 - For 宫主飞星 / 飞宫 / ruler placement questions, load `references/ruler-flight.md`.
 - For 格局, 名望, 品秩, social rank, high achievement, founder patterns, or public success, load `references/status-rank.md`.
-- For 中世纪占星, Almuten, Lots/Arabic Parts, triplicity rulers, Robert Zoller, Benjamin Dykes, or stricter medieval technique, load `references/medieval-techniques.md`.
+- For Almuten, Lots/Arabic Parts, triplicity rulers, Robert Zoller, Benjamin Dykes, Lilly-style, Bonatti-style, or stricter medieval technique, keep `references/medieval-techniques.md` active and apply it as the primary method layer.
 - For 天步真原, 七政-style Chinese classical terminology, 照星/许星, 命宫/官禄/福星, load `references/chinese-classical-terms.md`.
 - For timing, annual luck, 法达, 小限/宫限, 太阳弧, 次限, 三限, solar/lunar return, or event windows, load `references/predictive-timing.md`.
 - For 合盘, 比较盘, synastry, composite, Davison, 马克思盘, relationship compatibility, or breakup/marriage dynamics, load `references/synastry-compatibility.md`.

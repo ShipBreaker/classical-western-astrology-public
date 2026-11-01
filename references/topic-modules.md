@@ -1,6 +1,6 @@
 # Topic Modules
 
-Use these modules after the general chart frame is known.
+Use these modules after the general chart frame is known. For timing in every topic, follow the medieval-first hierarchy in `predictive-timing.md`: Firdaria, profection, solar return, and relevant transits by default; ZR and modern methods only as selected, labeled supplements.
 
 ## Career And Status
 
@@ -102,7 +102,7 @@ Some Ptolemaic material also inspects planets in or configured to the 10th/MC re
 
 For minors, avoid fatalistic claims about future marriage, lifespan, crime, or fixed worldly success. Focus on temperament, learning rhythm, parent-child communication, health-support awareness, and development guidance.
 
-For pregnancy or "when is it suitable to try for a baby" questions, combine 5th/5R, 1st/Asc ruler, Moon, Venus/Jupiter, the partner's 7th-house testimony, and timing activation by profection/Firdaria/ZR/Solar Arc/progressed Moon/transits. Keep the answer as symbolic timing and body-support awareness; never present it as medical fertility advice.
+For pregnancy or "when is it suitable to try for a baby" questions, combine 5th/5R, 1st/Asc ruler, Moon, Venus/Jupiter, the partner's 7th-house testimony, and timing layers selected under the hierarchy above. Keep the answer as symbolic reflection, not medical fertility advice or a basis for scheduling treatment.
 
 ## Health
 
@@ -117,11 +117,11 @@ Judge:
 - Malefics or debilitated planets tied to body/illness houses.
 - Sign and planet body correspondences only as symbolic clues, not diagnosis.
 
-Never diagnose disease. Say "this points to a vulnerable area / pressure pattern / need for professional checkup" rather than naming a medical certainty.
+Never diagnose disease or infer an organ weakness, elevated clinical risk, or a need for screening from a chart. Discuss symbolic burden and care themes only in the context the user actually reports; a softer phrase such as "vulnerable area" does not make a medical inference acceptable.
 
-Health-risk refinement: a single 1st/8th connection is a warning sign, but the more serious pattern is a cluster around the body/life significator: Ascendant ruler or 1st-house planet tied to the 8th, plus malefic affliction, plus repeated 1st/6th/8th/12th testimony. In live consultation, translate this into health-risk awareness and checkup advice, not death prediction.
+Several 1st/6th/8th/12th contacts may repeat a traditional symbolic theme, but repetition does not establish an actual health warning or make a medical outcome more likely. Do not rank clinical severity or recommend a test/checkup date from these contacts. Real symptoms, medical history and professional advice determine care needs.
 
-When timing health, use the same cluster standard. A progressed, Solar Arc, or transit hit to Ascendant, Ascendant ruler, Moon, 6th lord, 8th lord, or 12th lord can show body pressure only when the natal chart already supports vulnerability. Do not try to name the organ with confidence unless the natal and event evidence are unusually clear.
+When discussing health-related timing symbolism, preserve the method hierarchy above and distinguish symbolism from care decisions. Supplementary progressions or Solar Arc are not required. Astrological contacts do not establish a disease, affected organ, or clinical risk even when several chart factors agree; never delay care or schedule screening/treatment by an astrological window.
 
 ## Family And Parents
 

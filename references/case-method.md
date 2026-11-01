@@ -19,7 +19,7 @@ Use cases to train judgment, not to copy labels. Public-figure cases are useful 
    - Which expected symbols do not appear?
 5. Test timing:
    - Use dated events.
-   - Compare annual profection, Firdaria/ZR if available, Solar Arc, secondary progressions, and transits.
+   - Compare Firdaria, annual profection, solar return, and relevant transits; use reliable primary directions when available. Label ZR or modern supplements separately and apply them only when selected, as specified in `predictive-timing.md`.
    - Record converging testimonies and failed testimonies.
 6. Extract a reusable rule only when several cases repeat the same structure.
 
@@ -51,7 +51,7 @@ Use this practical sequence:
 
 - Do not treat a famous case as proof that a single aspect causes a life event.
 - Do not cherry-pick after knowing the biography. First state what the chart promises, then compare.
-- Do not assume a planet belongs to a house mechanically when it is close to the next cusp. Re-check cusp distance, house system, and whether the biography clearly speaks through the following house.
+- Preserve the supplied/computed house near a cusp and record angular strength or optional reassignment separately, following `technical-rules.md`. Biography may help compare interpretations but must not silently rewrite chart data.
 - Do not reverse-engineer every event. Some events are environmental, collective, or family-derived.
 - Do not generalize from extreme cases to ordinary consultations.
 - Do not ignore missing birth-time reliability; angles can make or break a case.

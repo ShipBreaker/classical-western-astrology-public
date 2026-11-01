@@ -99,7 +99,7 @@ For marriage, require:
 - Age and cultural context where marriage is realistic.
 - Natal promise for partnership/marriage.
 - 1st/7th testimony, preferably with 5th, Venus/Moon/Sun/Mars, MC/social status, or family houses.
-- Timing convergence from profection, Firdaria/ZR, Solar Arc, progressions, transits, or returns.
+- Timing convergence from Firdaria, profection, solar return, and relevant transits. ZR, Solar Arc, and progressions remain separately selected supplements under `predictive-timing.md`, not compulsory steps.
 
 Legal registration is a social form. The chart may show a relationship window, cohabitation, engagement, pregnancy, public status change, or breakup instead.
 

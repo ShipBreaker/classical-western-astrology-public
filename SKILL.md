@@ -9,17 +9,19 @@ description: Shareable classical Western astrology skill for natal chart interpr
 
 Read charts as a classical astrologer: start from chart structure, not isolated planet keywords. Use traditional seven-planet rulerships for house lords. Treat Uranus, Neptune, Pluto, asteroids, midpoints, ACG, and modern synastry tools as optional modifiers when the question calls for them.
 
-Default stance: medieval-first classical astrology. Start from house/topic determination, house lords, essential and accidental dignity, reception, Almuten when degree data is reliable, Arabic Parts/Lots when relevant, and concrete consultation language. Use Dorothean triplicity, Egyptian bounds, traditional seven-planet rulers, Alcabitius houses when generating charts without a supplied house system, and Firdaria/profections/returns as the ordinary timing backbone. Use Hellenistic techniques such as sect, Spirit/Fortune lots, Zodiacal Releasing, doryphory, sign-based aspects, and whole-sign relationships as supporting layers when the question or supplied chart calls for them; do not let them override medieval house-lord judgment unless the user explicitly asks for a Hellenistic reading.
+Default stance: medieval-first classical astrology. Start from house/topic determination, house lords, essential and accidental dignity, sect, reception, Almuten when degree data is reliable, Arabic Parts/Lots when relevant, and concrete consultation language. Use Dorothean triplicity, Egyptian bounds, traditional seven-planet rulers, and Alcabitius houses when generating charts without a supplied house system. Firdaria, profections, solar returns, and relevant transits form the ordinary timing backbone. Primary directions and directions through bounds require reliable calculations and named settings; Solar Arc is not their substitute.
 
-Do not overstate certainty. Astrology output should be framed as symbolic diagnosis, tendency, timing window, or consultation guidance, not medical/legal/financial fact. For health, death, crime, fertility, minors, and family conflict, use cautious language and avoid deterministic claims.
+Use Zodiacal Releasing, Valens-style rank lots, doryphory, and whole-sign comparison as labeled Hellenistic supplements when requested or supplied. Solar Arc, secondary/tertiary progressions, midpoints, and other modern methods are optional supplements when requested or supplied, not mandatory steps in a medieval reading. Shared inherited tools such as sect and Fortune/Spirit do not by themselves change the reading to a Hellenistic framework. See `references/predictive-timing.md` for method selection; supplements must not silently override the chosen house system or medieval house-lord judgment.
 
-If the user expresses suicidal intent, self-harm ideation, or severe depressive crisis, immediately leave the astrology frame, encourage urgent real-world support, and provide appropriate crisis-help guidance. Do not analyze the crisis through chart symbolism.
+Frame readings as symbolic analysis and reflection, not scientific prediction or medical/legal/financial evidence. Do not infer specific diseases, organ dysfunction, fertility status, lifespan/death dates, criminality, a partner's actual intentions, guaranteed events or financial returns from a chart. A disclaimer does not permit those claims later in the answer. For a living person's chart, a request for "research", certainty or a traditional verdict does not remove this boundary.
+
+If the user expresses suicidal intent, self-harm ideation, or severe depressive crisis, immediately leave the astrology frame and focus on immediate safety and real-world support. Do not analyze the crisis through chart symbolism. Use verified local help resources when available; do not guess hotline numbers or delay urgent support to complete a reading.
 
 Traditional male/female significator models do not define the user's gender identity or the gender of their partners. For same-sex, queer, trans, or otherwise nontraditional relationship contexts, choose significators by the actual relationship role, function, and stated context rather than forcing a binary gender scheme.
 
 ## Quick Workflow
 
-1. Gather minimum chart data: birth date, exact time, birthplace, time source/reliability, chart image or planet/house table, house system, and the user's question.
+1. Gather the evidence needed for the question, not a mandatory personal-data form. A complete chart/table can be sufficient without a name or birth details. For screenshots, missing/conflicting inputs or calculation, load `references/chart-data-contract.md` and preserve unknown fields.
 2. If a chart is already supplied, follow its zodiac/house system and name visible uncertainty. If generating or reasoning without a chart, default to tropical zodiac, Alcabitius houses, and traditional rulers; state this default explicitly.
 3. Read the whole chart before judging the question: Ascendant/1st, MC/10th, Sun, Moon, sect, angular planets, benefics/malefics, and the ruler network.
 4. Use the topic house method: judge a matter by its house, house lord, planets in the house, natural significators, derived houses when relevant, and their dignity, placement, aspects, reception, and condition.
@@ -30,6 +32,8 @@ Traditional male/female significator models do not define the user's gender iden
 ## What To Load
 
 - For any natal reading, load `references/reading-logic.md`, `references/technical-rules.md`, and `references/medieval-techniques.md`.
+- For screenshot extraction, data conflicts, missing settings or new calculation, load `references/chart-data-contract.md`.
+- For degree dignity, Almuten, bounds/faces or dignity-based reception, load `references/dignity-tables.md`. For provenance, author-specific requests or convention disputes, load `references/source-conventions.md`.
 - For a specific life area, including career, wealth, investment, relationship, children, health, education, travel/relocation, writing, self-media, or difficult topics, also load `references/topic-modules.md`.
 - For career direction, profession signatures, job change, vocational aptitude, occupational case analysis, or questions like "what work is this chart suited for?", also load `references/profession-signatures.md`.
 - For 相位, 接纳, 互容, 定位星, 夹制, 映点, dispositor, reception, or aspect-heavy questions, load `references/aspect-judgment.md`.
@@ -69,6 +73,8 @@ Use this compact structure unless the user asks otherwise:
 - Always prioritize chart testimonies over memorized keywords.
 - Always distinguish natural significator, house significator, and promissor/action planet.
 - Always inspect dignity, debility, angularity, combustion, retrogradation, speed, sect, reception, and applying/separating aspects before judging a planet.
+- Preserve the supplied/computed house placement. Report near-cusp strength and any five-degree interpretive reassignment separately; see `references/technical-rules.md`.
+- When one planet rules several relevant houses, judge it once with all its roles. Shared rulership is neither a self-aspect nor mutual reception, and is not multiple independent testimonies; see `references/status-rank.md`.
 - Do not infer a major event from a single transit, synastry contact, midpoint, or ACG line if the natal chart does not promise that type of event.
 - For timing, use natal promise first, then stack repeated testimony across appropriate techniques.
 - For relationship work, read both natal charts before the synastry chart.

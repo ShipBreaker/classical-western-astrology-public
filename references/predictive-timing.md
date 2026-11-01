@@ -10,19 +10,28 @@ Workflow:
 2. Identify the natal significators and their condition.
 3. Choose timing techniques appropriate to the question.
 4. Look for two or three independent testimonies converging on the same topic and time window.
-5. Use transits or progressed Moon for activation and shorter timing.
+5. Use relevant transits for activation and shorter timing. Add progressed Moon only in an explicitly selected modern supplement.
 
 Keep age, life stage, and social form in the forecast. A symbol that can mean marriage, leadership, inheritance, illness, or travel must be scaled to the person's age and context before it becomes a prediction.
 
 ## Integrated Timing Stack
 
-The ZOE-style timing notes summarize the practical workflow well:
+Default to the medieval workflow below. Other teaching notes and supplementary techniques do not change this priority:
 
 1. Make the natal structure clear first.
 2. Stack repeated testimonies of the same kind; do not chase every isolated symbol.
 3. Distinguish the concrete topic by changing the reference point when needed, such as using derived houses for partner, child, parent, company, or client questions.
 4. Use timing tools as activators. A tool is useful when it narrows the natal promise, not when it creates a new story.
-5. Know each tool's scale: Firdaria, profection, and return charts for the ordinary medieval timing backbone; Solar Arc/primary-like direction for year-level peaks; secondary progressions for unfolding environment; transits/eclipses/progressed Moon for activation. Use ZR as a Hellenistic lot-based timing layer when the question or supplied calculation calls for it.
+5. Use Firdaria for broad chapters, annual profection for the activated topic/lord, solar return for annual context, and relevant transits for activation. Missing return or transit data is a limitation, not permission to invent a replacement forecast.
+
+Method selection:
+
+- Primary directions and directions through bounds are traditional techniques, but require reliable calculated output and its settings: direction method, key, direct/converse treatment, latitude handling, and bounds table where applicable. Do not infer them from a flat one-degree-per-year arc.
+- Solar Arc, secondary/tertiary progressions, and midpoints are modern supplements. Load them when the user requests them or supplies their calculated charts/tables; label the separate layer. They are not required for the default medieval workflow.
+- ZR is a Hellenistic supplement, used when requested or supplied. Its sign-based timing does not replace the natal chart's house system.
+- Do not silently switch methods to obtain a preferred result. Separate agreements and disagreements between layers instead of treating every repeated mention of the same significator as independent evidence.
+
+Primary directions and Solar Arc are distinct methods, not interchangeable names. For historical orientation, see Oner Doser, [Astrological Prediction, introduction p. 6 and separate chapters 6/9](https://bendykes.com/wp-content/uploads/2016/08/ap-extract.pdf).
 
 For topic questions, phrase the forecast as "the chart shows this field is activated, and the most likely concrete forms are..." rather than pretending one technique alone names the outcome.
 
@@ -64,7 +73,7 @@ For a fuller 宫限 / 小限 reading, inspect:
 - Natal and transiting planets in the activated house.
 - Transits to the activated house, Lord of the Year, Ascendant, MC, Sun, Moon, and topic rulers.
 
-Monthly profection begins from the annual profected house at the birthday and advances one house each month. Daily profection can be approximated as one house every 2.5 days when a short window is needed, but use transits and progressed Moon for tighter practical timing.
+Monthly profection begins from the annual profected house at the birthday and advances one house each month. Daily profection can be approximated as one house every 2.5 days when a short window is needed, but prefer relevant transits for tighter practical timing.
 
 Profection can also be applied to specific points: Ascendant for body/life direction, Sun for honor/status, Moon for body and soul rhythms, MC for career, Fortune or 2nd cusp for money. Treat these as topic-specific activation tools and do not demand modern exact-aspect precision from them.
 
@@ -72,7 +81,7 @@ Practical refinements:
 
 - Whole-sign or equal-style profection is usually the cleanest first pass. Quadrant houses can be checked when the source chart uses them, but do not turn annual profection into a house-system argument.
 - The profected house can be treated as a temporary Ascendant or 太极点 for derived-house work, but this quickly becomes complex. Use it only when the question needs conversion, such as partner, child, company, or parent topics.
-- Daily profection at about 2.5 days per house exists, but it is usually too fine for ordinary consultation. Prefer transits or progressed Moon for short windows.
+- Daily profection at about 2.5 days per house exists, but it is usually too fine for ordinary consultation. Prefer relevant transits for short windows; progressed Moon belongs to the optional modern layer.
 - Profection repeats every 12 years. The concrete event must be scaled by age, social context, natal promise, and other timing testimony. A 7th-house year can be dating, marriage, clients, lawsuits, public opponents, partner illness, or separation depending on the chart.
 - Do not predict death or a singular extreme event from profection alone, because the same house returns every 12 years.
 - Experimental "move all planets one sign per year" profection can sometimes match events within one or two months, but treat it as a research supplement rather than the core method.
@@ -90,7 +99,7 @@ Use Firdaria for broad life chapters ruled by planets. Judge the major period lo
 
 Firdaria is better for chapter tone and recurring themes than exact dates.
 
-If the Sun is very near the horizon, classify day/night with care. A Sun very near the Ascendant at dawn can be treated as day in this teaching stream; a Sun near the Descendant at sunset may need event validation. Name the ambiguity if it changes the sequence.
+Determine day/night from the Sun's position relative to the local horizon, using reliable chart data. Near sunrise/sunset, name any birth-time or horizon-convention uncertainty and compare the candidate sequences; do not choose sect merely because one sequence fits the biography better.
 
 Day-birth major sequence:
 
@@ -104,21 +113,33 @@ Day-birth major sequence:
 - North Node 3 years.
 - South Node 2 years.
 
-Night-birth major sequence in the common node-free Bonatti/Zoller-style form:
+### Default Night Sequence: Bonatti-Style
 
-- Moon 9 years.
-- Saturn 11 years.
-- Jupiter 12 years.
-- Mars 7 years.
-- Sun 10 years.
-- Venus 8 years.
-- Mercury 13 years.
+When no sequence is supplied, use the Bonatti-style table presented in Oner Doser's [Astrological Prediction, pp. 38-40, Figures 6-7](https://bendykes.com/wp-content/uploads/2016/08/ap-extract.pdf). This is an explicit skill convention, not a claim that all medieval authors agree.
 
-If using a node-including night sequence, place the nodes after Mercury: North Node 3 years, then South Node 2 years, extending the sequence to 75 years. The middle-node placement after Mars is a less common variant; use it only when the source chart or software explicitly follows that system, and name the variant.
+| Planet | Years | Start age | End age |
+| --- | ---: | ---: | ---: |
+| Moon | 9 | 0 | 9 |
+| Saturn | 11 | 9 | 20 |
+| Jupiter | 12 | 20 | 32 |
+| Mars | 7 | 32 | 39 |
+| North Node | 3 | 39 | 42 |
+| South Node | 2 | 42 | 44 |
+| Sun | 10 | 44 | 54 |
+| Venus | 8 | 54 | 62 |
+| Mercury | 13 | 62 | 75 |
 
-Subperiods divide each planetary major period into seven subperiods, beginning with the major period lord and then following the Chaldean order used by the Firdaria sequence. Node periods are usually not subdivided in this teaching stream.
+Both default day and night cycles total 75 years, then repeat from their initial luminary. Age intervals are start-inclusive and end-exclusive.
 
-Firdaria boundary dates are not knife-cut exact. Allow roughly a month around a subperiod change before insisting the new lord has fully taken over.
+Follow a supplied chart/software sequence instead of silently replacing it:
+
+- Nodes-last night convention: Moon, Saturn, Jupiter, Mars, Sun, Venus, Mercury, North Node, South Node; 75 years. The cited survey associates this placement with Schoener among others.
+- Node-free night convention: the seven planetary periods only, totaling 70 years. Use only when explicitly selected; do not label it Bonatti/Zoller without a verified source, or assume how a supplied implementation repeats it.
+- Identify the actual sequence and source/settings when comparing variants; an author's name alone is insufficient.
+
+Planetary subperiods divide the major period equally into seven, starting with its lord and cycling through Saturn, Jupiter, Mars, Sun, Venus, Mercury, Moon. Skip nodes in this subperiod cycle; default nodal major periods have no subperiods.
+
+Calendar boundaries are calculable once the year-length/calendar convention, epoch, and timezone are fixed. Preserve supplied dates; otherwise state the calculation convention or give age ranges. A symbolic transition window does not change a calculated start date or excuse an unexplained discrepancy.
 
 Reading rule: first define what the period lord promises in the natal chart by nature, house occupied, houses ruled, dignity, aspects, reception, and sect. Then blend the subperiod lord. A major/subperiod pair is most eventful when both link the same houses or significators. For example, marriage needs repeated 1st/7th testimony and age-appropriate context; a childhood 1st/7th activation should not be read as legal marriage.
 
@@ -128,7 +149,7 @@ Firdaria can be treated as a structure activator:
 
 - A major period can begin the preparation phase before visible success appears.
 - The decisive event often arrives in the subperiod that connects the major lord to the 1st, 10th, money houses, or the exact topic structure.
-- Repeated peaks can occur whenever the same helpful subperiod lord returns under different major lords, especially when Solar Arc or profections also support it.
+- Repeated peaks can occur whenever the same helpful subperiod lord returns under different major lords, especially when profection and solar return also support it.
 - If a period activates wealth houses but not the 10th or career platform, it may bring money movement, capital preparation, or risk rather than public rise.
 - If a period activates 1R/10R but not 2nd/8th/11th, it may bring office, title, visibility, or responsibility rather than cash.
 - A benefic period is not automatically productive if that benefic rules irrelevant houses or encourages comfort, delay, or complacency. A malefic period is not automatically bad if the malefic rules the career/money structure and has reception or benefic rescue, although it may still cost health, rest, or peace.
@@ -139,7 +160,7 @@ Do not read a good Firdaria period as guaranteed success. It must activate a rea
 
 ## Zodiacal Releasing
 
-Use Zodiacal Releasing when the chart data and calculation are available. Do not hand-compute it casually.
+Use Zodiacal Releasing as a labeled Hellenistic supplement when requested or supplied and reliable chart data/calculation are available. Do not hand-compute a full release casually.
 
 General use:
 
@@ -156,13 +177,30 @@ Additional ZR rules:
 
 - ZR divides life into activated signs and time-lord chapters. A sign can be activated even when empty; planets configured to it by conjunction, square, or opposition still color the period.
 - The period lengths by sign follow domicile lord minor years: Cancer 25, Leo 19, Virgo/Gemini 20, Libra/Taurus 8, Scorpio/Aries 15, Sagittarius/Pisces 12, Capricorn 27, Aquarius 30.
-- Capricorn 27 / Aquarius 30 follows the Valens-style route used here. Some sources or software assign both Saturn signs 30; if the supplied calculation uses that convention, follow it and name the difference.
-- Levels are hierarchical: Level 1 years, Level 2 months, Level 3 weeks, Level 4 days; lower levels are subdivisions of the higher period and should not override the main chapter.
+- Capricorn 27 / Aquarius 30 follows the Valens-style route used here. If a supplied calculation differs, identify its documented convention before comparing dates; do not assume the variants are interchangeable.
+- Levels are hierarchical; lower levels refine rather than override their parent chapter. Use the units in the calculation convention below, not literal weeks for L3 or days for L4.
 - When releasing from Spirit and Spirit is in the same sign as Fortune, some Valens-derived practice advances Spirit one sign for the release. Name this rule if you use it.
 - Angular signs from Fortune are peak periods: 1st/4th/7th/10th from Fortune show highest activity, succedent signs carry or stabilize, cadent signs begin or reduce activity. A peak can be difficult if malefics dominate that sign.
 - Sect modifies subjective ease: the benefic of sect tends to make periods feel more supportive; the malefic contrary to sect tends to make periods more challenging.
 - Loosing of the Bond marks a major sequence break or transition. Compare the target sign to its earlier activation; the earlier activation often foreshadows the later one.
 - To forecast with ZR, study the person's past periods first. Repeated sign activations often repeat themes, although the concrete manifestation changes with age, environment, and other timing layers.
+
+### ZR Calculation Convention
+
+Use fixed 360-day years and 30-day months unless a supplied calculation explicitly specifies another convention. Multiply the sign's period number by the unit at the requested level:
+
+| Level | Unit in days | Meaning |
+| --- | ---: | --- |
+| L1 | 360 | One schematic year |
+| L2 | 30 | One schematic month |
+| L3 | 2.5 | One twelfth of an L2 unit |
+| L4 | 0.2083333333333333 | Exactly 5 hours, or 5/24 day |
+
+For example, Capricorn's 27 gives L3 = 67.5 days and L4 = 135 hours (5 days 15 hours). Use exact fractions for boundaries, not the rounded decimal display. Start each child sequence from its parent's sign, truncate it at the parent boundary, and use start-inclusive/end-exclusive intervals. For exact dates, record the epoch, timezone, year convention, and level. Do not apply Firdaria's year-length convention to ZR.
+
+The sign periods total 211 units. On completing a full child circuit within a parent, Loosing of the Bond jumps to the sign opposite the parent's sign instead of restarting at that sign. L1 itself does not perform this child-sequence jump.
+
+Implementation cross-check: [Morphemeris ZR reference](https://docs.morphemeris.com/docs/reference/zodiacal-releasing). This documents the computational convention, not proof of predictive validity.
 
 ## Solar And Lunar Returns
 
@@ -176,11 +214,11 @@ Use:
 
 Simple method: read the return chart as a temporary independent chart, then compare it to the natal chart. This is useful but incomplete.
 
-Return charts can produce too many testimonies. Do not let one return chart override natal promise, Firdaria/ZR/profection, Solar Arc, or strong progressions/transits. Use returns as support and topic clarification, not as the sole forecast.
+Return charts can produce too many testimonies. Compare the return with natal promise, Firdaria, profection, and relevant transits; do not make it the sole forecast. When supplementary techniques disagree, report the disagreement without automatically giving Solar Arc, progressions, or ZR priority over the medieval annual framework.
 
 ## Solar Arc
 
-Solar Arc is useful for major life peaks and visible events.
+Solar Arc is an optional modern method for symbolic event windows. Use it only in the selected supplemental layer, not as primary directions or a compulsory medieval forecasting step.
 
 Principles:
 
@@ -210,7 +248,7 @@ Do not universalize a single Solar Arc formula. For example, Solar Arc MC to Sat
 
 Modern Solar Arc practice often emphasizes outer planets and midpoint pictures. In this classical skill, use them as optional timing modifiers, not as replacement for natal promise, house rulership, sect, and dignity. If the user wants a Tyl-style reading, you may describe Uranus/Neptune/Pluto contacts more directly, but still route the event through natal houses and life context.
 
-For career or rank peaks, a practical sequence is: Firdaria or profection identifies the chapter, Solar Arc gives the visible year window, progressed Moon and transits trigger the month, and biography confirms whether the manifestation was office/title, public recognition, education milestone, relocation, family event, or resource change.
+Within an explicitly selected modern supplement, Solar Arc can add a year window and progressed Moon a shorter window. The default career/rank workflow remains Firdaria, profection, solar return, and relevant transits. Separate a forecast from retrospective comparison with biography; known events do not establish predictive accuracy.
 
 Solar Arc is especially useful for scanning many years quickly. Compared with casting a separate solar return for every year, Solar Arc lets you see which years carry hard contacts to angles, luminaries, and topic rulers.
 
@@ -227,7 +265,7 @@ If birth time is known only within a two-hour branch, Solar Arc can often narrow
 
 ## Secondary Progressions / 次限
 
-Core rule: one day after birth equals one year of life.
+This is an optional modern supplement, not a default medieval step. Core rule: one day after birth equals one year of life.
 
 Use:
 
@@ -254,7 +292,7 @@ Tertiary and minor progressions can be used for shorter windows if the chart sof
 
 ## Tertiary Progressions / 三限
 
-Tertiary progressions use a shorter scale than secondary progressions. In the teaching stream, the working idea is one day after birth equals about one lunar month or one actual month of life, depending on the software convention.
+Tertiary progressions are an optional modern supplement using a shorter scale than secondary progressions. In the teaching stream, the working idea is one day after birth equals about one lunar month or one actual month of life, depending on the software convention.
 
 Use tertiary progressions for short-term observation and event refinement after larger testimony exists.
 
@@ -265,7 +303,7 @@ Practical notes:
 - A secondary progression that lasts two to three years can show as a two to three month tertiary theme.
 - A secondary Mars theme of four to five years can compress into a four to five month tertiary theme.
 - Tertiary Moon can move too quickly and often becomes a one or two week signal. Use it lightly unless it hits an already active natal/timing structure.
-- Tertiary angles and tertiary contacts to 1st/6th/8th/12th significators can be useful for health-warning windows, but never diagnose. Say "health pressure / need to check the body" rather than naming a disease.
+- Tertiary contacts to 1st/6th/8th/12th significators remain symbolic themes, not health-warning windows or evidence of disease risk. Do not infer an affected organ, a need for screening, or a care date from them; never postpone real-world care to an astrological window.
 
 In practice, tertiary progressions are refiners. Do not build a major forecast only from a tertiary contact.
 
@@ -298,7 +336,7 @@ Procedure:
 
 1. Collect high-confidence life events with dates: relocation, parent events, school/career transitions, marriage/divorce, birth of children, illness/surgery, accidents, awards, deaths in family, legal events.
 2. Identify likely houses and significators for each event.
-3. Test angle-sensitive techniques: Solar Arc to angles, profected Ascendant/house, transits to angles, progressed Moon over angles.
+3. Compare candidate natal angles/houses with profections, returns, and relevant transits; add primary directions only with reliable calculations and settings. Solar Arc and progressed Moon may be tested as separately labeled modern supplements when selected.
 4. Adjust birth time conservatively and record why a candidate time fits or fails.
 
 Do not force rectification from one event. Prefer a small set of candidate times with evidence.

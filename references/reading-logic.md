@@ -109,6 +109,7 @@ The 1st and 10th are especially important for the overall "格局": if they are 
 ## Synthesis Rules
 
 - Strong testimony: repeated through house lord, occupant, natural significator, angle, dignity, and timing.
+- Count physical significators and evidence sources, not just role labels. One planet ruling multiple topic houses is a shared channel, not a self-aspect, mutual reception with itself, or several independent confirmations. Record near-cusp strength separately from original house placement as specified in `technical-rules.md`.
 - Mixed testimony: one side gives opportunity while another gives cost, delay, conflict, or instability.
 - Weak testimony: isolated keyword, wide aspect, no house relevance, or unsupported outer-planet symbolism.
 - Contradictory testimony: state both sides and judge which planet has more power by dignity, angularity, sect, and exactness.

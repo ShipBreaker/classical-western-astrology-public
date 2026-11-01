@@ -6,7 +6,7 @@ Use this file when reading Chinese classical Western astrology materials such as
 
 Treat these sources as a Chinese transmission of Western/Islamic/medieval astrology, not as modern psychological astrology and not as pure Ziwei/Bazi. Translate the old terms into the working classical Western method, then judge by the same chain: significator, planet condition, house determination, aspect/reception, timing, and context.
 
-Do not quote or reproduce long classical passages in readings. Use them to sharpen judgment.
+Do not quote or reproduce long classical passages in readings. These inherited notes are paraphrases, not a verified edition/page apparatus for every named work. Consult `source-conventions.md`; do not claim an exact historical attribution without checking it. For numerical dignity tables use `dignity-tables.md` or an identified supplied table.
 
 The `明译天文书` material is especially basic-method oriented: it gives planet qualities, benefic/malefic categories, sect/day-night associations, oriental/occidental conditions, fixed-star lists, sign categories, aspects, domiciles, and exaltation degrees. Treat it as an old technical glossary. Its own method statement is important: rules are not absolutely fixed; calculation, observation, and repeated testimony are required.
 
@@ -73,7 +73,7 @@ Use this as a testimony of effectiveness and visibility, not as a moral score. A
 
 `明译天文书` gives a related but slightly different practical order: 1st, 10th, 7th, 4th, 11th, 5th, 9th, 3rd, 2nd, 8th, 6th, 12th. Treat house-strength orders as traditional weightings, not an exact arithmetic ladder. If the topic itself is the 2nd, 8th, 6th, or 12th, that house is still central even if its accidental strength is lower.
 
-For cusp judgment, the same material gives a useful rule: a planet within about 5 degrees before the Ascendant can belong to the 1st; beyond that it remains in the 12th. Generalize this cautiously as the standard 5-degree-before-cusp rule, especially for angles.
+For cusp judgment, the same material uses a five-degree-before-Ascendant convention for 1st-house action. Treat this as an interpretive layer, not permission to overwrite the supplied/computed house. Follow `technical-rules.md`, "Near-Cusp Placement And Strength", for the original house, angle distance, birth-time sensitivity, and optional reassignment.
 
 ## Dignity Metaphors
 
@@ -98,7 +98,7 @@ The Tianbu material gives a general age sequence that resembles planetary ages:
 - Jupiter: about 56 to 68; counsel, rest, prudence, social respect.
 - Saturn: after about 68; decline, coldness, heaviness, old age.
 
-Use these as broad life-period color, not as exact predictive chapters. For exact timing, prefer profections, Firdaria, Solar Arc, progressions, and transits.
+Use these as broad life-period color, not as exact predictive chapters. Default to Firdaria, profections, solar returns, and relevant transits; use the separately labeled supplements only as selected in `predictive-timing.md`.
 
 ## Character And Body Logic
 
@@ -119,7 +119,7 @@ Older sources treat the exact Ascendant degree as decisive and include rectifica
 - Exact birth time controls the Ascendant, lots, house cusps, annual charts, and much of timing.
 - If the recorded time is approximate, avoid degree-level lots, fixed stars, and house-cusp claims.
 - Ancient conception or prenatal-month rules are historical techniques. Use them only in academic explanation unless the user explicitly asks for old-method reconstruction.
-- For practical rectification, prefer dated life events, Solar Arc to angles, profections, progressed Moon, and transits as described in `predictive-timing.md`.
+- For practical rectification, compare dated events with candidate angles/houses and the method hierarchy in `predictive-timing.md`; Solar Arc and progressed Moon remain optional modern supplements, not mandatory medieval steps.
 - Longevity, 寿星, and lifespan-number methods belong to historical vitality doctrine. For living people, do not use them to predict death or a fixed lifespan.
 
 ## Wealth Logic

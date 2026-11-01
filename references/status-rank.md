@@ -21,12 +21,7 @@ Achievement is produced by chart plus environment. A dignified planet shows capa
 
 Valens-style rank checks may use four lots: Fortune, Spirit, Basis, and Exaltation. Use this as additional rank testimony, especially in 格局 questions, not as a replacement for Ascendant, 10th, luminaries, and dignity.
 
-Require exact birth time and sect before calculating. The formulas used in the material are:
-
-- Fortune: day `Asc + Moon - Sun`; night `Asc + Sun - Moon`.
-- Spirit: day `Asc + Sun - Moon`; night `Asc + Moon - Sun`.
-- Basis: take the shorter arc between Fortune and Spirit and project that arc from the Ascendant. This is equivalent to choosing `Asc + Fortune - Spirit` or `Asc + Spirit - Fortune` by the shorter arc, unless the source gives a specific convention.
-- Exaltation: day `Asc + Aries 19 - Sun`; night `Asc + Taurus 3 - Moon`.
+Use the single formula contract in `medieval-techniques.md` for Fortune, Spirit and the explicitly named short-arc Basis convention. Require reliable inputs, normalization and sect. Exaltation and other specialized lots require a supplied/checked formula including ordinal-degree versus longitude convention; do not assume 19th degree means 19 degrees. Keep source variants separate.
 
 Read the lots mainly by whole-sign relationships:
 
@@ -68,7 +63,9 @@ Use this as a refinement, not the first step.
 
 For fame, office, rank, and public achievement, compare the Ascendant ruler and the 10th ruler.
 
-Key patterns:
+First check whether the two houses have different rulers. If 1R and 10R are the same planet, it carries both life and career topics but is one physical significator. Judge its dignity, original house, angular proximity, and contacts to other planets/points once. Do not describe it as applying to itself or in mutual reception with itself, or count its shared rulership twice as independent confirmation. Seek additional testimony from genuinely distinct factors. The same principle applies to any shared topic ruler.
+
+Key patterns when the relevant rulers are distinct:
 
 - Ascendant ruler applying to 10th ruler: the native seeks rank, office, or public achievement.
 - 10th ruler applying to Ascendant ruler: rank, office, superior, or public opportunity comes toward the native.
@@ -86,8 +83,8 @@ Do not automatically reject rank because the Ascendant ruler, 10th ruler, or maj
 
 Look for recovery factors:
 
-- 1R and 10R applying to each other, receiving each other, or connected by strong benefic reception.
-- 10R applying to or receiving 1R: office, public role, or career opportunity comes toward the native.
+- Distinct 1R and 10R applying to each other, receiving each other, or connected by strong benefic reception; use the shared-ruler rule above when they are identical.
+- A distinct 10R applying to or receiving 1R: office, public role, or career opportunity comes toward the native.
 - Dignified benefics, Sun, or Jupiter lifting an otherwise difficult ruler.
 - 11th-house support for patrons, voters, audience, networks, institutions, or public backing.
 - 2nd-house support for campaign funds, capital, salary, or resource channels.

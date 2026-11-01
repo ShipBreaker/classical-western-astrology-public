@@ -66,9 +66,9 @@ Judge whether a planet has power to act according to its own nature:
 - Fall: lowered, awkward, less able to express its best promise.
 - Peregrine: without essential dignity; the planet has less rooted authority and depends more heavily on its dispositor, aspects, and house condition.
 
-When exact degree dignity matters, use a reliable chart table or classical calculator for bounds/terms and faces. Do not invent degree-level dignities from memory.
+When exact degree dignity matters, load `dignity-tables.md` for the checked working tables, interval boundaries and degree-score procedure, or use a clearly identified supplied table. Do not invent degree-level dignities from memory.
 
-For stricter medieval work, use Dorothean triplicity rulers and Egyptian bounds unless the user or chart source specifies another table. Almuten is the planet with the highest dignity score at a degree; it can act as a house/topic significator, especially in medieval-style readings.
+Use Dorothean triplicity rulers and Egyptian bounds unless the user or chart source specifies another table. Almuten is the highest degree-ownership score under the named scheme; preserve ties and distinguish this from overall planetary strength. See `source-conventions.md` for sources and explicit skill choices.
 
 ## Accidental Condition
 
@@ -86,18 +86,23 @@ Judge whether a planet has circumstances to act:
 - Hayz: a planet is especially well-situated when it matches sect, hemisphere, and sign gender. Use it as a quality modifier, not a standalone verdict.
 - Dispositor strength matters. A weak planet with a strong dispositor can recover; a strong planet with a weak dispositor can have its promise undermined by its environment.
 
-Traditional accidental house strength is not identical to simple angular/succedent/cadent labels. Use this standard strength order: 1st, 10th, 7th, 4th, 11th, 5th, 9th, 3rd, 2nd, 8th, 6th, 12th. This keeps the angular houses together before the stronger succedent and cadent places; use it as a strength guide, then return to the actual topic.
+For a qualitative house-strength guide, this skill uses Lilly's *Christian Astrology* p. 48 order: 1st, 10th, 7th, 4th, 11th, 5th, 9th, 3rd, 2nd, 8th, 6th, 12th (source L1 in `source-conventions.md`). This is a named weighting, not a universal arithmetic ranking or a substitute for the topic and angular proximity.
 
-When using quadrant or equal houses, planets within about 5 degrees before a house cusp can act in the following house, especially before an angle. If a sign is intercepted in a house, consider both the cusp ruler and the intercepted sign ruler for that house.
+### Near-Cusp Placement And Strength
+
+Keep three facts separate: the supplied/computed house placement, proximity to a cusp or angle, and an optional interpretive reassignment. In quadrant or equal houses, a planet within about 5 degrees before the next cusp can be read as acting in the following house, especially before an angle. This convention does not alter its longitude or silently replace its recorded house.
+
+When it changes the reading, report the original house, distance/direction to the next cusp, and whether the five-degree convention is being applied. A planet recorded in the 12th close to the Ascendant can have substantial angular strength and optional 1st-house action without erasing its original 12th-house placement. In house-lord flight, label the original destination and any supplementary destination separately; do not count them as independent evidence.
+
+If birth-time uncertainty can move the planet across the cusp, compare the candidate placements and weaken house-specific claims. Preserve whether a time is recorded, approximate, or rectified. Do not apply this degree rule to rewrite whole-sign house membership. If a sign is intercepted in a house, consider both the cusp ruler and the intercepted sign ruler for that house.
 
 Traditional house joys can refine accidental condition: Mercury joys in the 1st, Moon in the 3rd, Venus in the 5th, Mars in the 6th, Sun in the 9th, Jupiter in the 11th, Saturn in the 12th. A joy does not make a planet "good" by itself; it lets the planet express its nature more coherently.
 
 ## Aspects And Reception
 
-Use Ptolemaic aspects first: conjunction, sextile, square, trine, opposition. Consider sign-based aspects before fine orbs; then judge applying/separating motion and exactness.
+Use Ptolemaic aspects first: conjunction, sextile, square, trine, opposition. Keep whole-sign relationship and measured degree contact distinct; use the out-of-sign and motion rules in `aspect-judgment.md` rather than silently discarding a close degree contact.
 
-- Applying aspects show what is developing.
-- Separating aspects show what has already occurred or is fading.
+- Applying/separating is a motion classification first, requiring reliable speeds or a trusted chart flag; its symbolism is not proof that an event will occur or has occurred.
 - Reception can help a difficult aspect because the receiving planet has reason to support the other.
 - Mutual reception links two topics strongly and can transfer resources between them.
 - Lack of aspect by sign aversion can show disconnection, ignorance, or inability to cooperate.

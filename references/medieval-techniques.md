@@ -51,9 +51,7 @@ Use Almuten when:
 - judging rank, wealth, profession, vitality, or special lots
 - the source chart gives degree-level dignity tables
 
-Do not invent Almuten from memory. Use a reliable dignity table or chart software. If only sign-level data is available, state that Almuten cannot be confirmed.
-
-A common medieval scoring model is domicile 5, exaltation 4, triplicity 3, term/bound 2, face/decan 1. Use this only when the dignity table and degree are known; otherwise keep the reading qualitative.
+Load `dignity-tables.md` for the 5/4/3/2/1 degree-ownership procedure, active triplicity policy and tie handling. Use the supplied table if explicitly identified. If only sign-level data is available, do not invent a degree Almuten. Keep planetary condition and whole-chart Almuten Figuris separate from this score.
 
 ## Triplicity Rulers
 
@@ -65,7 +63,7 @@ Use them as a secondary layer:
 - Second triplicity ruler: middle or alternate support.
 - Participating ruler: background or cooperating support.
 
-Exact triplicity tables differ by tradition. Use the table supplied by the source/chart software and state the tradition if it matters.
+Use the Dorothean working table in `dignity-tables.md` unless another table is supplied. The participating ruler is not automatically an extra 3 points in a degree score, and the sequence does not by itself specify equal chronological thirds. State a technique's actual timing rule before assigning dates.
 
 ## Arabic Parts / Lots
 
@@ -75,7 +73,17 @@ Lots convert relationships between planets and angles into topical points. The m
 - Lot of Spirit: intention, action, career, mind, chosen direction, soul/intellect.
 - Lot of Eros: love, desire, relationship themes.
 
-Use lot formulas that adjust for sect when required by the tradition. Do not calculate lots casually if the chart's day/night condition or exact Ascendant is uncertain.
+### Lot Formula Contract
+
+Use longitude degrees and `norm(x) = ((x % 360) + 360) % 360`. A, S and M denote Ascendant, Sun and Moon. In this sect-reversing working convention:
+
+- Fortune: day `norm(A + M - S)`; night `norm(A + S - M)`.
+- Spirit: day `norm(A + S - M)`; night `norm(A + M - S)`.
+- Basis short-arc convention: first calculate Fortune F and Spirit P under the chosen sect; let `d = norm(F - P)` and `b = min(d, 360 - d)`; Basis is `norm(A + b)`. At coincident lots b=0; at opposition b=180. Do not take a minimum of unnormalized signed differences.
+
+These formulas are coordinate conventions, not an assertion that every historical author reverses every lot. See `source-conventions.md`. If sect or Ascendant is uncertain, give conditional values or defer. The optional Basis convention is not a replacement for the medieval house-lord framework.
+
+For Exaltation, Eros and other specialized lots, require a documented formula and its degree-indexing/sect convention. In particular, distinguish an ordinal "19th degree" from the coordinate 19 degrees; do not silently choose a one-degree offset. Do not invent an unfamiliar lot from its name.
 
 Read a lot by:
 
@@ -100,10 +108,11 @@ Medieval timing is layered:
 - Profections: annual house and Lord of the Year.
 - Firdaria / 法达: broad planetary chapters.
 - Triplicity periods: long-range support for topics.
-- Primary directions / directions through terms: precise but calculation-heavy.
+- Primary directions / directions through terms: use reliable calculated output with named settings; do not substitute Solar Arc.
 - Solar returns: annual chart as a layer over natal promise.
 - Transits: triggers and visible circumstances.
-- Zodiacal Releasing: Hellenistic time-lord release from lots.
+
+For ordinary readings, use Firdaria, profections, solar returns, and relevant transits. Zodiacal Releasing is an optional Hellenistic layer; Solar Arc and progressions are optional modern layers. Follow the selection and calculation rules in `predictive-timing.md`, and keep missing calculations explicit rather than inventing dates.
 
 Each layer activates natal promise. A timing method does not create an unsupported event.
 

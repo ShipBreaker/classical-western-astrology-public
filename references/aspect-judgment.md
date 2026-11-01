@@ -25,21 +25,21 @@ Prioritize the Ptolemaic aspects:
 - Trine: ease, support, natural cooperation.
 - Opposition: confrontation, separation, polarity, contest, projection.
 
-The classical root of aspect doctrine is sign relationship. First check whether the signs behold each other; then refine by degree, orb, application, and reception. Signs in aversion often show non-contact, ignorance, inability to act together, or matters not naturally seeing each other.
+Record both sign relationship and degree contact. Signs in aversion have no whole-sign Ptolemaic configuration, but that does not erase a measured out-of-sign degree contact. Label such a contact explicitly; under this working policy it is weaker/qualified testimony, not automatic perfection of an event. Preserve the source's chosen convention and check sign changes before interpreting future perfection. Same-sign planets can also be outside operative degree orb.
 
 ## Orbs And Moiety
 
-Use planetary moiety rather than a fixed orb for each aspect type when exact orb matters:
+Use planetary moiety rather than a fixed orb for each aspect type. Default to the smaller column recorded by Lilly, *Christian Astrology* p. 107 (L1 in `source-conventions.md`). The larger column is a named alternative, not extra allowance to add to the default. Do not mix columns opportunistically.
 
-| Planet | Full orb |
-| --- | ---: |
-| Sun | 15° |
-| Moon | 12° |
-| Saturn | 9° |
-| Jupiter | 9° |
-| Mars | 8° |
-| Venus | 7° |
-| Mercury | 7° |
+| Planet | Default full orb degrees | Alternative full orb degrees |
+| --- | ---: | ---: |
+| Sun | 15 | 17 |
+| Moon | 12 | 12.5 |
+| Saturn | 9 | 10 |
+| Jupiter | 9 | 12 |
+| Mars | 7 | 7.5 |
+| Venus | 7 | 8 |
+| Mercury | 7 | 7 |
 
 Two planets are within operative orb when the distance from exact aspect is within half of planet A's orb plus half of planet B's orb. Example: Moon to Mercury has about 9.5° of combined moiety.
 
@@ -52,13 +52,19 @@ Keep consultation outputs simple: name whether an aspect is tight, moderate, or 
 - Fast planet applying to slow planet often shows the native/topic moving toward the promised condition.
 - A planet separating from one testimony and applying to another can show transition from one condition/person/topic to another.
 
-For prediction, applying exactness matters more than a loose natal contact.
+For a numerical check, select the aspect branch and let `e` be its signed longitude residual in [-180, 180), and `u = speed_B - speed_A`. Away from exactness/stations, `e*u < 0` is applying and `e*u > 0` is separating. At exactness say exact; with absent/uncertain speeds or nearly zero relative motion say undetermined and check an ephemeris. Retrograde motion can reverse the usual fast/slow order. A local derivative does not prove future perfection: check stations, sign changes and intervention with reliable calculation.
+
+Applying symbolism can describe development and separating symbolism a receding pattern; neither proves a concrete past or future event from a natal chart alone. Do not transfer horary event rules uncritically into natal claims.
 
 ## Reception
 
 Reception has direction.
 
-A planet is received when it aspects a planet that rules one of its dignities in the sign it occupies: domicile, exaltation, triplicity, term/bound, or face. In practice, prioritize domicile and exaltation; count triplicity + term + face combinations when a stricter medieval reading is needed.
+For two distinct planets A and B, look up the dignity owners at A's longitude in `dignity-tables.md`. If B owns a dignity there, B receives A, not the reverse. Repeat independently at B's longitude to check the other direction. Domicile disposition is the specific case of a sign's ruler; it is not identical to every kind of reception.
+
+Working classification: a domicile or exaltation claim is major support; at least two distinct minor claims among active triplicity, bound and face are combined minor support; a single minor claim is weak affinity, not automatically a rescue. This strength threshold is this skill's convention, not a claim that every author used it. Count only the active triplicity lord under the selected scoring convention; do not silently add participating rulers.
+
+State separately whether there is a degree aspect within the chosen moiety, a whole-sign configuration only, or no configuration. Here, "operative reception" means qualifying dignity support plus an operative degree contact; without that contact, report the dignity relationship without asserting event delivery. Historical usage differs: Lilly p. 112 permits mutual reception without aspect. Use that variant only when named, not as a silent exception to the working definition.
 
 Reception means the receiving planet has reason or ability to support the received planet. It can soften a square or opposition, but it does not erase the hard aspect's friction. The result may still require labor, conflict, compromise, or payment.
 
@@ -73,7 +79,7 @@ Ask:
 
 ## Mutual Reception
 
-Mutual reception links two planets and their houses strongly. It can exchange resources, bind two life areas, or make two people/topics unable to ignore each other.
+Mutual reception requires qualifying dignity support in both directions between two distinct planets. Name each direction and the contact condition; mixed major/minor support is possible. It is not a planet receiving itself because it rules two houses, and it does not reveal another person's actual feelings or intentions.
 
 Common forms:
 
@@ -121,7 +127,16 @@ Conjunctions are not inherently good or bad. Judge:
 - Whether combustion or cazimi changes the condition.
 - Whether the conjunction occurs in an angle, topic house, or cadent/hidden place.
 
-Combustion with the Sun weakens ordinary planetary visibility; cazimi is an exception and can empower the planet as if at the heart of authority.
+Solar proximity is a separate condition from aspect moiety. Use the following named longitude-based policy derived from Lilly pp. 113-114, with endpoint choices made explicit for computation. Let `d` be the smaller longitude separation from the Sun:
+
+| Condition | Operational rule |
+| --- | --- |
+| Cazimi | d <= 17/60 degrees; evaluate before combustion |
+| Combust | 17/60 < d <= 8.5 degrees AND same sign as the Sun |
+| Under beams | d < 17 degrees, excluding the previous conditions |
+| Outside this solar-proximity range | d >= 17 degrees |
+
+For example, a cross-sign 2-degree separation is under beams, not combustion under this selected same-sign rule. Other traditions differ in orb, sign and latitude requirements; name a supplied alternative. These are longitude classifications, not physical visibility calculations. Uncertain/rounded coordinates spanning a threshold require conditional labels. Do not apply the solar rule to the Sun itself or use it to erase other dignity and condition testimony.
 
 ## Besiegement And Enclosure
 
